@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "about": "About Us",
+    "business": "Business",
+    "org": "Organization",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI Agents Power the Future",
+    "tagline": "Building leading AI agent software products and technical services",
+    "cta1": "Contact Us",
+    "cta2": "Learn More"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Empowering business with technology, changing the world with AI agents",
+    "companyTitle": "Company Overview",
+    "companyText1": "We are an innovative technology company focused on AI agent software development, committed to building leading AI agent products and providing efficient, intelligent technical solutions for businesses and individuals. Our team brings together technical experts and product talents from top technology companies with rich R&D experience in the AI agent field.",
+    "companyText2": "We believe that AI agents will become the core infrastructure of the future digital world, driving intelligent upgrades across all industries.",
+    "vision": "Vision",
+    "visionText": "To become a leading company in the AI agent field, making AI technology benefit every corner of the world",
+    "mission": "Mission",
+    "missionText": "To help enterprises improve efficiency, reduce costs, and achieve digital transformation through innovative AI agent products and services"
+  },
+  "business": {
+    "title": "Core Business",
+    "subtitle": "Three business segments to fully meet customer needs",
+    "product": {
+      "title": "AI Agent Software Development",
+      "desc": "Independently developing AI agent software products covering enterprise intelligent customer service, data analysis, automated office and other scenarios, providing one-stop intelligent solutions for enterprises."
+    },
+    "content": {
+      "title": "Professional Technical Content Creation",
+      "desc": "Producing high-quality technical articles, solution whitepapers, and technical books to spread cutting-edge technical knowledge and empower industry development."
+    },
+    "service": {
+      "title": "Technical Consulting & Custom Services",
+      "desc": "Providing professional technical consulting services and customized AI agent software development based on customer needs to help enterprises achieve rapid intelligent upgrades."
+    }
+  },
+  "org": {
+    "title": "Organization",
+    "subtitle": "Flat and efficient management structure, focusing on execution and innovation",
+    "chairman": "Chairman",
+    "ceo": "CEO",
+    "coo": "COO - Operations",
+    "cto": "CTO - R&D",
+    "cfo": "CFO - Finance & Token Monitoring",
+    "dept1": "AI Agent Software Department",
+    "dept1Desc": "Responsible for AI agent product development and iteration",
+    "dept2": "Content Creation Department",
+    "dept2Desc": "Responsible for technical articles and solutions output",
+    "dept3": "Customer Service Department",
+    "dept3Desc": "Responsible for customer service and technical support"
+  },
+  "team": {
+    "title": "Core Team",
+    "subtitle": "Experienced and professional team",
+    "chairman": "Chairman",
+    "chairmanBio": "Company strategic decision-maker, responsible for long-term development planning and major decisions",
+    "ceo": "CEO",
+    "ceoBio": "Overall company operations leader, coordinating all business modules",
+    "coo": "COO",
+    "cooBio": "Responsible for daily operations management and process optimization",
+    "cto": "CTO",
+    "ctoBio": "Technical R&D leader, leading technical architecture and product innovation",
+    "cfo": "CFO",
+    "cfoBio": "Finance and token consumption monitoring, ensuring efficient resource utilization"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Looking forward to cooperating with you",
+    "email": "Business Email",
+    "address": "Company Address",
+    "addressText": "Chaoyang District, Beijing, Technology Park",
+    "message": "Welcome to contact us via email or social media",
+    "name": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Please enter your message...",
+    "submit": "Send Message"
+  },
+  "footer": {
+    "copyright": "AI Agent Technology. All rights reserved."
+  }
+}
