@@ -1,1 +1,131 @@
 /* App-specific styles - main styles are in index.css */
+
+/* Case Study Section */
+.case {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.case .section-title h2,
+.case .section-title p {
+  color: white;
+}
+
+.case-content {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.case-header h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.case-tag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.case-section {
+  margin-bottom: 30px;
+}
+
+.case-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.case-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.timeline-phase {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  min-width: 100px;
+  text-align: center;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-content strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.case-lessons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.case-lessons li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.case-lessons li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+}
+
+.case-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.case-link .btn {
+  background: white;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.case-link .btn:hover {
+  background: #f0f0f0;
+}

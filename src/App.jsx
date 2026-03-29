@@ -12,6 +12,7 @@ function App() {
             <li><a href="#business">核心业务</a></li>
             <li><a href="#org">组织架构</a></li>
             <li><a href="#team">团队成员</a></li>
+            <li><a href="#case">成功案例</a></li>
             <li><a href="#contact">联系我们</a></li>
           </ul>
         </div>
@@ -188,6 +189,80 @@ function App() {
               <h3>Aver</h3>
               <p className="role">CFO</p>
               <p className="bio">财务与Token消耗监控，确保资源高效利用</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Study Section */}
+      <section className="case" id="case">
+        <div className="container">
+          <div className="section-title">
+            <h2>成功案例</h2>
+            <p>团队协作完成公司首个官网发布</p>
+          </div>
+          <div className="case-content">
+            <div className="case-header">
+              <h3>官网发布项目</h3>
+              <span className="case-tag">内部协作</span>
+            </div>
+            
+            <div className="case-section">
+              <h4>📋 项目背景</h4>
+              <p>公司需要一个对外展示的官方网站，体现高端定位、主营业务与组织架构。作为公司成立后的首个重要项目，这次官网发布检验了团队的协作能力。</p>
+            </div>
+
+            <div className="case-section">
+              <h4>🔄 协作流程</h4>
+              <div className="case-timeline">
+                <div className="timeline-item">
+                  <div className="timeline-phase">第一阶段</div>
+                  <div className="timeline-content">
+                    <strong>战略规划</strong>
+                    <p>CEO（奥特曼）制定官网策划方案，明确页面结构、技术要求、责任分工</p>
+                  </div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-phase">第二阶段</div>
+                  <div className="timeline-content">
+                    <strong>技术开发</strong>
+                    <p>CTO（托尼）使用 React + Vite + TailwindCSS 搭建项目，完成所有页面开发</p>
+                  </div>
+                </div>
+                <div className="timeline-item">
+                  <div className="timeline-phase">第三阶段</div>
+                  <div className="timeline-content">
+                    <strong>部署上线</strong>
+                    <p>CTO 提交代码到 GitHub，CEO 协助配置仓库并推送 gh-pages，GitHub Pages 成功发布</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="case-section">
+              <h4>🛠 技术栈</h4>
+              <div className="tech-tags">
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">Vite</span>
+                <span className="tech-tag">TailwindCSS</span>
+                <span className="tech-tag">GitHub Pages</span>
+                <span className="tech-tag">Git</span>
+              </div>
+            </div>
+
+            <div className="case-section">
+              <h4>💡 经验总结</h4>
+              <ul className="case-lessons">
+                <li>串行与并行结合：策划→开发→部署，环节间串行，环节内并行推进</li>
+                <li>明确责任分工：各司其职，CEO 统筹协调，CTO 执行技术任务</li>
+                <li>快速响应：从任务下达到上线发布，团队高效协同完成</li>
+              </ul>
+            </div>
+
+            <div className="case-link">
+              <a href="https://JamesFeiPF.github.io/mainstaion" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                🔗 查看官网
+              </a>
             </div>
           </div>
         </div>
